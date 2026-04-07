@@ -108,28 +108,26 @@ body {
   cursor: pointer;
 }
 
-/* ===================== 포스터 한 줄 정렬 ===================== */
 .posters {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px; /* 포스터 사이 간격 */
-  margin: 0 30px 30px 30px; /* section 안쪽 여백 조절 */
+  gap: 20px;
+  margin: 0 30px 30px 30px;
 }
 
 .posters img {
   width: 80%;
   height: auto;
-  margin: 0; /* 기존 margin 제거 */
+  margin: 0;
   border-radius: 10px;
   padding: 0px;
 }
 
-/* ===================== 카드 한 줄 정렬 ===================== */
 .card-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px; /* 카드 사이 간격 */
-  margin: 0 30px 30px 30px; /* section 안쪽 여백 조절 */
+  gap: 20px;
+  margin: 0 30px 30px 30px;
 }
 
 .card {
@@ -141,7 +139,6 @@ body {
   padding: 20px;
 }
 
-/* 카드 아이콘 위치 */
 .icon {
   position: absolute;
   bottom: 20px;
@@ -149,7 +146,6 @@ body {
   width: 60px;
 }
 
-/* 제목 여백 */
 h2 {
   margin: 30px;
 }
